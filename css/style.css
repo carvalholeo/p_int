@@ -1,17 +1,28 @@
 header{
+position: static;
+margin:  0%;
 background: rgb(94,164,65);
 background: linear-gradient(337deg, rgba(94,164,65,1) 2%, rgba(84,149,85,1) 47%, rgba(36,221,97,1) 100%);
 font-family: 'Pompiere', cursive;
 color: aliceblue;
+height: 180px;
 }
 .busca{
-font-size: 25px;
-position: relative;
+  font-size: 15px;
+  position: relative;  
+  left: 80px;
+  bottom: 50px;
+
 }
+
+
+
+
 .botao{
     position: relative;
     left: 800px;
-    bottom: 150px;
+    bottom: 250px;
 }
+
 
   

@@ -18,17 +18,18 @@
     <header>
        <div class="container" >
         <img class="logo" src="/css/imagens/logo.png" alt="logo">
-        <div class="busca" >
-        <label for="site-search">Buscar Serviços ou Produtos</label>
-      </div>
+        <div class="busca">
+        <label for="site-search"><h1>Buscar Serviços ou Produtos</h1></label>
+     
         <input type="search" id="site-search" name="q"
         aria-label="Search through site content">
-        
-        <button>Buscar</button>
       
-
-  <button onclick="getLocation()">localize</button>
-
+        <button>Buscar</button>
+        </div>
+<div class="localizacao">
+   <h3>Ative sua Localização</h3>
+  <img src="/css/imagens/pequenas/2.png" alt="" onclick="getLocation()">localize>
+  </div>
   <p id="demo"></p>
   <script>
   var x = document.getElementById("demo");
@@ -58,7 +59,7 @@
 
 <div class="botao">
  <h2>Escolha Seu Estado</h2>
- <img class="seletor" src="css\imagens\pequenas\1.png" alt="seletor">
+
  <select>
   
   <option value="none"></option>
@@ -92,7 +93,7 @@
 </select>
 
 </div>
-
+</div>
 
     </header>
 </body>
