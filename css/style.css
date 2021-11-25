@@ -1,9 +1,17 @@
-label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
+header{
+background: rgb(94,164,65);
+background: linear-gradient(337deg, rgba(94,164,65,1) 2%, rgba(84,149,85,1) 47%, rgba(36,221,97,1) 100%);
+font-family: 'Pompiere', cursive;
+color: aliceblue;
+}
+.busca{
+font-size: 25px;
+position: relative;
+}
+.botao{
+    position: relative;
+    left: 800px;
+    bottom: 150px;
 }
 
-input,
-label {
-    margin: .4rem 0;
-}
+  

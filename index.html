@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>T-link</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="estados.html">
     <link rel="import" href="localizacao.html">
@@ -15,11 +18,14 @@
     <header>
        <div class="container" >
         <img class="logo" src="/css/imagens/logo.png" alt="logo">
+        <div class="busca" >
         <label for="site-search">Buscar Serviços ou Produtos</label>
+      </div>
         <input type="search" id="site-search" name="q"
         aria-label="Search through site content">
+        
         <button>Buscar</button>
-
+      
 
   <button onclick="getLocation()">localize</button>
 
@@ -51,8 +57,10 @@
 </div>
 
 <div class="botao">
-<button>escolha seu estado
-<select name="Escolha Seu Estado" >
+ <h2>Escolha Seu Estado</h2>
+ <img class="seletor" src="css\imagens\pequenas\1.png" alt="seletor">
+ <select>
+  
   <option value="none"></option>
   <option value="AC">Acre</option>
   <option value="AL">Alagoas</option>
@@ -82,7 +90,7 @@
   <option value="SE">Sergipe</option>
   <option value="TO">Tocantins</option>
 </select>
-</button>
+
 </div>
 
 
