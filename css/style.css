@@ -1,81 +1,114 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 header{
-
+max-width: 100%;
+flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+align-items: center;
 background: rgb(94,164,65);
 background: linear-gradient(337deg, rgba(94,164,65,1) 2%, rgba(84,149,85,1) 47%, rgba(36,221,97,1) 100%);
 font-family: 'Pompiere', cursive;
 color: aliceblue;
 
 }
-.pin{
-  position: relative;
- left:  15px;
- top: 10px;
- font-size: 20px;
- }
+
+
+
+
+
+
+div.busca> label {
+  display: block;
+  
+}
+div.busca>input{
+  display: inline-block;
+}
+
+
  .localizacao{
-   position: relative;
- left: 100px;
- top: 3px;
+ 
  font-size: 25px;
  }
  
  .estados{
    width: 20px;
-   position: relative;
-  bottom: 20px;
+  
  background-color: white;
  }
- 
 
 
 
- .botao{
- 
-position: relative;
-top: 10px;
-left: 200px;
-}
 
 img.banner{
   display: flex;
   width: 100%;
-  height: 200px;
+ 
 }
  .menu{
    width: 40px;
    height: 40px;
-   position: relative;
-   left:1000px;
-   top: 30px;
+ 
  }
   
 
 div.container{
   display:flex;
- 
+ font-family: 'Pompiere', cursive;
+margin-top: 20px;
 
 }
 
 .doce {
 position: relative;
-  left: 200px;
+  left: 350px;
+top: 80px;
 width: 150px;
 
 height: 150px;
-  padding: 5px 5px;
+ 
 }
-.container>.roupa{
+.roupa{
+  position: relative;
+  top: 80px;
+  left: 300px;
   width: 150px;
 height: 150px;
-  padding: 5px 5px;
+ 
 }
 .comida{
-  
+
+  position: relative;
+  top: 80px;
+  left: 320px;
   width: 150px;
 height: 150px;
-  padding: 5px 5px;
+ 
+}
+h1{
+  position: relative;
+  font-family: 'Pompiere', cursive;
+  left: 320px;
 }
 
 
 
+
+
+footer{
+ 
+  max-width: 100%;
+  flex-wrap:wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-end;
+  background: rgb(94,164,65);
+  background: linear-gradient(337deg, rgba(94,164,65,1) 2%, rgba(84,149,85,1) 47%, rgba(36,221,97,1) 100%);
+  font-family: 'Pompiere', cursive;
+  color: aliceblue;
+}
