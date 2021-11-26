@@ -18,6 +18,7 @@
     <header>
        <div class="container" >
         <img class="logo" src="/css/imagens/logo.png" alt="logo">
+        <img class="menu" src="/css/imagens/pequenas/peq_img.png" alt="men">
         <div class="busca">
         <label for="site-search"><h1>Buscar Serviços ou Produtos</h1></label>
      
@@ -26,14 +27,17 @@
       
         <button>Buscar</button>
         </div>
-<div class="localizacao">
-   <h3>Ative sua Localização</h3>
-  <img src="/css/imagens/pequenas/2.png" alt="" onclick="getLocation()">localize>
-  </div>
+
+        
+      <div class="localizacao" >
+        
+        
+  <img class="pin" src="/css/imagens/pequenas/2.png" alt="" onclick="getLocation()">
+  Ative Sua Localização
+  
   <p id="demo"></p>
   <script>
   var x = document.getElementById("demo");
-  
   function getLocation() {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(showPosition);
@@ -47,20 +51,12 @@
     "<br>Longitude: " + position.coords.longitude;
   }
   </script>
-
-
-
-
-
-
-
-  
 </div>
 
 <div class="botao">
  <h2>Escolha Seu Estado</h2>
 
- <select>
+ <select class="estados" >
   
   <option value="none"></option>
   <option value="AC">Acre</option>
@@ -93,8 +89,19 @@
 </select>
 
 </div>
-</div>
+
 
     </header>
+    <img class="banner" src="/css/imagens/gif/gd.gif" alt="bn">
+    <main>
+      <div class="container" >
+     
+       <img class="roupa" src="/css/imagens/gif/roupa.gif" alt="rou">
+       
+       <img class="comida" src="/css/imagens/gif/comida.gif" alt="com">
+       
+       <img class="doce" src="/css/imagens/gif/doce.gif" alt="doc">
+      </div>
+    </main>
 </body>
 </html>
