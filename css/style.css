@@ -58,45 +58,90 @@ img.banner{
   
 
 div.container{
-  display:flex;
- font-family: 'Pompiere', cursive;
-margin-top: 20px;
 
-}
-
-.doce {
-position: relative;
-  left: 350px;
-top: 80px;
-width: 150px;
-
-height: 150px;
+margin-left: 220px;
+margin-top: 50px;
+margin-right: auto;
+padding: 20px;
+display: flex;
+flex-wrap:wrap;
+flex-direction: row;
  
 }
-.roupa{
-  position: relative;
-  top: 80px;
-  left: 300px;
-  width: 150px;
-height: 150px;
+div.container > .comida{
+width: 200px;
+height: 200px;
+  box-shadow:0 1px 10px rgba(15, 14, 20, 0.856);
+ margin-left: 20px;
+margin-right: 20px;
+}
+div.container >.roupa{
+  width: 200px;
+  height: 200px;
+  box-shadow:0 1px 10px rgba(15, 14, 20, 0.856);
+}
+div.container >.doce{
+  width: 200px;
+  height: 200px;
+  box-shadow:0 1px 10px rgba(15, 14, 20, 0.856);
+}
+div.selecionados{
+display: flex;
+  flex-wrap: wrap;
+
+
+margin-left: 300px;
+margin-top: 30px;
+}
+.textroupa{
+  font-family:'Pompiere', cursive; 
+  font-size: 30px;
+display: flex;
+flex-wrap: wrap;
+
+}
+.textcomida{
+  font-family:'Pompiere', cursive; 
+  font-size: 30px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.textdoce{
+  font-family:'Pompiere', cursive; 
+  font-size: 30px;
+display: flex;
+flex-wrap: wrap;
+flex-direction:row-reverse;
+  
+}
+div.sebrae{
+display: flex;
+flex-direction: column;
+margin-right: 200px;
+margin-bottom: 10px;
+align-items:flex-end;
+}
+.selo{
+width:100px;
+height: 80px;
+}
+ 
+.logSeb{
+  width: 120px;
+  height: 100px;
+
+
+}
+
+img.gif{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+margin-left: 450px;
+box-shadow:0 1px 10px rgba(15, 14, 20, 0.856);
  
 }
-.comida{
-
-  position: relative;
-  top: 80px;
-  left: 320px;
-  width: 150px;
-height: 150px;
- 
-}
-h1{
-  position: relative;
-  font-family: 'Pompiere', cursive;
-  left: 320px;
-}
-
-
 
 
 
